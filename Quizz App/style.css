@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:wght@100&family=Poppins:wght@200;300;400;500&display=swap');
+
+.header, .p{
+    /* padding: 1rem; */
+    text-align: center;
+    margin: 0;
+    margin-right: 20px;
+    color: white;
+    padding-top: 200px;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: aliceblue;
+    background-image: -moz-linear-gradient();
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 0%, rgba(11,114,128,1) 60%, rgba(14,152,158,1) 77%, rgba(0,212,255,1) 100%);
+    font-family: Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vb;
+    overflow: hidden;
+    margin: 0px
+
+}
+
+
+
+
+.quiz-container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* box-shadow: 0 0 2px 0px rgba(00, 00, 0.1);  */
+    border-color: black;
+    /* border-width: medium; */
+    height: 500px;
+    width: 600px;
+    /* overflow: hidden; */
+    margin-left: 50px;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+   background-color: rgb(59, 195, 195); 
+   color: white;
+   border: none;
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   font-size: 1.1rem;
+   font-family: inherit;
+   padding: 1.3rem;
+   width: 100%;
+   
+   margin-bottom: 0px;
+   padding: 35px;
+   text-align: center;
+   
+   
+}
+
+
+
+button:hover {
+    background-color: rgb(16, 99, 167);
+}
